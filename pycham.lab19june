@@ -1,0 +1,23 @@
+# Functions
+
+#1- Functin without argument and no return
+def greet ():
+    print ("Hello")
+
+greet ()
+
+#2- Function with argument or No return
+def double(a):
+    print(a * 2)
+
+double(20)
+
+
+#3- function with argument or return
+
+def sum(a,b):
+    return a + b
+
+
+result= sum(3,4)
+print(result)
